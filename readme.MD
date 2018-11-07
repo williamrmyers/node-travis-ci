@@ -7,7 +7,7 @@ Start:
 node server/server.js
 ```
 
-test
+Test
 ```
 npm test
 ```
