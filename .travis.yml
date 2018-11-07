@@ -5,6 +5,5 @@ cache: npm
 
 before_script:
         - npm install -g license-cli
-        - cd .
         - license-cli auth $FOSSA_API_TOKEN
         - license-cli scan -r $TRAVIS_COMMIT
